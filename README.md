@@ -10,7 +10,7 @@
 [![Documentation](https://img.shields.io/badge/docs-doxygen-blue.svg)](https://muhkartal.github.io/boostedpp/)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://github.com/muhkartal/boostedpp#using-docker)
 
-**A high-performance, histogram-based Gradient Boosting Decision Tree (GBDT) library written in modern C++20**
+**A high-performance, histogram-based Gradient Boosting Decision Tree (GBDT) library written in C++20**
 
 [Overview](#overview) • [Features](#features) • [Quick Start](#quick-start) • [Benchmarks](#performance-benchmarks) • [CLI](#command-line-interface) • [API](#c-api) • [Documentation](#documentation)
 
@@ -18,7 +18,7 @@
 
 ## Overview
 
-BoostedPP is a blazing-fast implementation of the Gradient Boosting Decision Tree algorithm designed for production environments. It combines the speed of histogram-based tree building with the expressiveness and safety of modern C++20, making it suitable for large-scale machine learning tasks.
+BoostedPP is a blazing-fast implementation of the Gradient Boosting Decision Tree algorithm designed for production environments. It combines the speed of histogram-based tree building with the expressiveness and safety of C++20, making it suitable for large-scale machine learning tasks.
 
 <!--
 <picture>
@@ -42,7 +42,7 @@ BoostedPP is a blazing-fast implementation of the Gradient Boosting Decision Tre
   <td width="33%">
     <h3>Production Ready</h3>
     <ul>
-      <li>Clean, modern C++20 code</li>
+      <li>Clean, C++20 code</li>
       <li>RAII, const-correctness throughout</li>
       <li>Comprehensive documentation</li>
       <li>Cross-platform (Linux & Windows)</li>
@@ -239,7 +239,7 @@ BoostedPP delivers exceptional performance due to several optimizations:
   </tr>
   <tr>
     <td>C++ Interface</td>
-    <td>✅ (Modern C++20)</td>
+    <td>✅ (C++20)</td>
     <td>✅ (C++11)</td>
     <td>✅ (C++11)</td>
     <td>✅ (C++14)</td>
@@ -669,7 +669,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <div align="center">
   <p>
-    <strong>BoostedPP</strong> - High-Performance Gradient Boosting in Modern C++
+    <strong>BoostedPP</strong> - High-Performance Gradient Boosting in C++
   </p>
   <p>
     <a href="https://github.com/muhkartal/boostedpp">GitHub</a> •
