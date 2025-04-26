@@ -20,11 +20,11 @@
 
 BoostedPP is a blazing-fast implementation of the Gradient Boosting Decision Tree algorithm designed for production environments. It combines the speed of histogram-based tree building with the expressiveness and safety of C++20, making it suitable for large-scale machine learning tasks.
 
-<!--
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.svg">
-  <img src="docs/images/architecture.svg" alt="BoostedPP Architecture" width="85%">
-</picture> -->
+  <source media="(prefers-color-scheme: dark)" srcset="images/dark-mode.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/light-mode.png">
+  <img alt="Fallback image description" src="images/dark-mode.png">
+</picture>
 
 ## Features
 
