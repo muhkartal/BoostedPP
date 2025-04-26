@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+   boostedpp:
+      build:
+         context: .
+         target: runtime
+      volumes:
+         - ./data:/data
+      command: --help
+
+   boostedpp-dev:
+      build:
+         context: .
+         target: builder
+      volumes:
+         - .:/app
+         - ./data:/data
+      command: bash
+      tty: true
+      stdin_open: true
+
+   boostedpp-api:
+      build:
+         context: ./api
+      ports:
+         - "8080:8080"
+      volumes:
+         - ./data:/data
+         - ./models:/models
+      environment:
+         - PORT=8080
+         - MODELS_DIR=/models
