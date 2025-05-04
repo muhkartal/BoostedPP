@@ -677,3 +677,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
     <a href="https://kartal.dev">Developer Website</a>
   </p>
 </div>
+<div align="center">
+
+Developed by Muhammad Ibrahim Kartal | [kartal.dev](https://kartal.dev)
+
+</div>
